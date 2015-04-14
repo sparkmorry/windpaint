@@ -1,0 +1,27 @@
+.icon{
+  display: inline-block;
+  background-image: url('../imgs/icon.png');
+  background-size: 500px 400px;
+}
+.i-shops{
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
+}
+
+.i-shops-selected{
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
+}
+
+.i-mine{
+  background-position: -27px 0;
+  width: 25px;
+  height: 25px;  
+}
+.i-more{
+  background-position: -54px 0;
+  width: 25px;
+  height: 25px;    
+}

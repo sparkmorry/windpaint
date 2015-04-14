@@ -1,0 +1,46 @@
+body{
+  /*background: #795548;*/
+}
+.main-content{
+  /*padding: 5px 5px 44px 5px;*/
+  padding-bottom: 44px;
+}
+.shop{
+/*  background: rgba(255,255,255,0.4);
+*/  
+  /*border-radius: 2px;*/
+  padding: 5px 20px;
+  /*padding-right: 20px;*/
+  /*border: solid 1px rgb(187, 174, 169);*/
+  /*margin-bottom: 5px;*/
+}
+.shop:nth-child(2n+1){
+  background: white;
+}
+.shop:nth-child(2n){
+  background: #fbfbf9;
+}
+.shop .avatar{
+  width: 110px;
+  height: 110px;
+  float: left;
+}
+
+.shop .shop-intro{
+  margin-left: 130px;
+  color: #797979;
+}
+
+.d-name{
+  /*color: #795548;*/
+  font-size: 1.4em;
+}
+.d-name, .d-intro{
+  margin-bottom: 5px;
+}
+
+.d-price{
+  color: #b14119;;
+  font-weight: 700;
+  font-family: -webkit-pictograph;
+}

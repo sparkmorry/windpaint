@@ -1,0 +1,14 @@
+/*前端基本样式库 start */
+@import url("basic/reset.css");
+@import url("basic/color.css");
+@import url("basic/common.css");
+@import url("basic/icon.css");
+@import url("basic/basic.css");
+
+/*@import url("icon-M1.css");*/
+/* 前端基本样式库 end */
+
+/* 前端基本组件用到的样式库 start */
+@import url("module/header.css");
+@import url("module/footer.css");
+/* 前端基本组件用到的样式库 end */

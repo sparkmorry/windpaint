@@ -1,0 +1,82 @@
+.tabs{
+  height: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-bottom: solid 1px #e6e6e6;
+}
+.tabs .nav-item{
+  width: 50%;
+  float: left;
+  cursor: pointer;
+}
+
+.tabs .nav-name{
+  display: block;
+  width: 100px;
+  font-size: 1.2em;
+  border-bottom: solid 3px white;
+  margin: auto;
+  text-align: center;
+  line-height: 45px;
+  color: black;
+}
+.tabs .selected .nav-name{
+  border-color: #b57eff;
+}
+.vertical-tabs{
+  margin-top: 49px;
+  width: 60px;
+  text-align: center;
+  background: #f8f8f8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.vertical-tabs .nav-item{
+  padding: 15px 0;
+}
+
+.vertical-tabs .nav-item .zh{
+  font-size: 1.3em;
+  color: #666;
+}
+.vertical-tabs .nav-item .en{
+  font-size: 0.8em;
+  color: #ccc;
+}
+
+.vertical-tabs .nav-item.selected{
+  background: white;  
+}
+.vertical-tabs .nav-item.selected .zh{
+  color: #b57eff;
+}
+
+.vertical-tabs .nav-item.selected .en{
+  color: #b57eff;
+}
+
+.main-content{
+  margin-top: 49px;
+  margin-left: 60px;
+}
+
+.cloth{
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.cloth .cloth-img, .cloth .cloth-name, .cloth .cloth-price{
+  width: 90px;
+  text-align: left;
+  margin: auto;
+}
+.cloth .cloth-price{
+}
